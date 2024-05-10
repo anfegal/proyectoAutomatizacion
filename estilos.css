@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a8aaae;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    width: 1200px;
+    background-color: aliceblue;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header{
+    background-color: #ffffff;
+    overflow: hidden;
+   display: flex;
+    
+}
+.logo{
+    width: 10px;
+    margin: 15px 80px;
+    
+}
+.imglogo{
+    width: 150px;
+    
+}
+.imglogo2{
+    width: 100px;
+     
+}
+.menu{
+      margin-top:50px; 
+      margin-left: 200px;
+}
+.lista{
+    list-style: none;
+}
+.item{
+    float:right;
+    border: 1px solid #340494;
+    padding: 10px;
+}
+.--inicio{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    color: #09d0db;
+}
+.item:hover{
+    background-color: rgb(15, 15, 89);
+    padding: 12px 15px;
+}
+.link:hover{
+    color: orange;
+}
+.imgslider{
+    margin-left: 300px;
+    width: 600px;
+    height: 600px;
+}
+section{
+    overflow: hidden;
+}
+.titulo{
+    color:#1d0c89;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 270px;
+    margin-bottom:10px;
+    
+}
+.card{
+    float: left;
+    height: 400px;
+    margin: 5px 180px;
+    margin-right: 80px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.encabezado{
+    background-color: #1551a1;
+}
+.imgcard{
+    width: 100%;
+    height: 180px;
+
+}
+.imgcard:hover{
+    opacity: 0.7;
+}
+.titutloCard{
+    color: white;
+    padding: 10px; 
+    text-align: center;
+}
+.contenido{
+    background-color: white;
+}
+p{
+    text-align: justify;
+    padding: 20px;
+}
+button{
+    background-color:#1551a1;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #122b4c;
+    font-weight: 700;
+    cursor:pointer;
+}
+footer{
+    background-color: #062348;
+   overflow: hidden; 
+   display: flex;
+}
+.footerIzq{
+    width: 50%;
+    margin: 20px 20px;
+    float: left;
+}
+.logopie{
+    width: 200px;
+    height: 150px;
+    margin-left: 600px;
+}
+.logopie2{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 300px;
+
+}
+
+.pfooter{
+    color: white;
+    font-size: 20px;
+ 
+}
+.footerDer{
+    float: right;
+    margin-top:20px;
+    margin-right: 200px;
+}
